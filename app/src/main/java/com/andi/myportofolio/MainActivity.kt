@@ -14,21 +14,25 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
         binding= ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
-        binding.btnCertified.setOnClickListener {
-            startActivity(Intent(this,DetailActivity::class.java))
-        }
+        supportActionBar?.hide()
+
+        initiationButton()
 
     }
 
+    private fun initiationButton() {
+        binding.btnCertified.setOnClickListener(this)
+    }
+
     override fun onClick(v: View?) {
-        when(v?.id){
-            R.id.btn_about->{
+        when(v){
+            binding.btnAbout->{
 
             }
-            R.id.btn_certified->{
+            binding.btnCertified->{
                 startActivity(Intent(this,DetailActivity::class.java))
             }
-            R.id.btn_project->{
+            binding.btnProject->{
 
             }
         }

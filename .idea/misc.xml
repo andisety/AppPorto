@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CODING/Android/MyPortofolio/app/src/main/res/drawable/background.xml" value="0.1515" />
         <entry key="..\:/CODING/Android/MyPortofolio/app/src/main/res/layout/activity_detail.xml" value="0.22447916666666667" />
         <entry key="..\:/CODING/Android/MyPortofolio/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/CODING/Android/MyPortofolio/app/src/main/res/layout/background.xml" value="0.22447916666666667" />
         <entry key="..\:/CODING/Android/MyPortofolio/app/src/main/res/layout/data_porto.xml" value="0.22447916666666667" />
         <entry key="..\:/CODING/Android/MyPortofolio/app/src/main/res/layout/fragment_certified.xml" value="0.22447916666666667" />
         <entry key="..\:/CODING/Android/MyPortofolio/app/src/main/res/layout/fragment_project.xml" value="0.22447916666666667" />

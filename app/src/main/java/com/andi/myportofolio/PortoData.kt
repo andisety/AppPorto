@@ -17,10 +17,10 @@ object PortoData {
         "Progate",
         "Progate",
         "Progate",
-        "Dicoing",
-        "Dicoing",
-        "Dicoing",
-        "Dicoing",
+        "Dicoding",
+        "Dicoding",
+        "Dicoding",
+        "Dicoding",
     )
     val photoCertified = intArrayOf(
         R.drawable.progate_html_css,
