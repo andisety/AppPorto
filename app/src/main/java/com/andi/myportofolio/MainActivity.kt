@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
+import android.widget.ImageView
 import android.widget.LinearLayout
 
 import com.andi.myportofolio.databinding.ActivityMainBinding
@@ -50,6 +51,7 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
                 val bottomFragment = BottomSheetFragment()
                 bottomFragment.setStyle(BottomSheetDialogFragment.STYLE_NORMAL,R.style.bottomSheetDiaolog)
                 bottomFragment.show(supportFragmentManager,BottomSheetFragment::class.java.simpleName)
+
 
 
 
