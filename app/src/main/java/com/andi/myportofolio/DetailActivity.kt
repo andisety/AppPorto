@@ -19,11 +19,24 @@ class DetailActivity : AppCompatActivity() {
 
 
         val fragmentCertified: Fragment = CertifiedFragment()
+        val fragmentAbout: Fragment = AboutFragment()
         val transaksion = supportFragmentManager.beginTransaction()
+        val session = intent.getStringExtra("key")
 
-
-    transaksion
-        .replace(R.id.fr_container, fragmentCertified, CertifiedFragment::class.java.simpleName)
-        .commit()
+        when(session){
+            "certificate"->{
+                transaksion
+                    .replace(R.id.fr_container, fragmentCertified, CertifiedFragment::class.java.simpleName)
+                    .commit()
+                }
+            "about"->{
+                transaksion
+                    .replace(R.id.fr_container, fragmentAbout, AboutFragment::class.java.simpleName)
+                    .commit()
+            }
+        }
     }
 }
+
+
+

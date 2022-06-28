@@ -14,7 +14,7 @@
             android:id="@+id/cover"
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:background="#0B94DD"
+            android:background="@drawable/rectablgeblue"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"/>
         <de.hdodenhof.circleimageview.CircleImageView
@@ -168,7 +168,7 @@
                         />
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/btn_github"
+                    android:id="@+id/btn_social"
                     android:clickable="true"
                     app:cardCornerRadius="5dp"
                     android:layout_width="140dp"
@@ -181,12 +181,12 @@
                         android:layout_height="100dp"
                         android:layout_marginTop="20dp"
                         android:paddingBottom="45dp"
-                        android:src="@drawable/github"
+                        android:src="@drawable/social"
                         android:background="@color/white"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Github"
+                        android:text="Social Media"
                         android:paddingBottom="35dp"
                         android:textSize="20sp"
                         android:layout_gravity="center|bottom"
@@ -221,4 +221,5 @@
 
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </ScrollView>
